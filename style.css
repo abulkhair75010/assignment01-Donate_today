@@ -106,20 +106,27 @@ form {
 }
 
 .food {
+    width: 1000px;
+    height: 350px;
     text-align: center;
-    box-shadow: 10px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
+
 }
 
 .shelter {
-
+    width: 1000px;
+    height: 350px;
     text-align: center;
-    box-shadow: 10px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
 
 }
 
 .education {
+    width: 1000px;
+    height: 350px;
     text-align: center;
-    box-shadow: 10px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
+
 }
 
 .plan {
