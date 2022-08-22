@@ -35,3 +35,51 @@ body {
     background: orange;
     margin-left: 45%;
 }
+
+.donate-today {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.amount {
+    display: flex;
+    margin-left: 600px;
+}
+
+.tk-100 {
+
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.tk-200 {
+
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.tk-500 {
+
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.tk-1000 {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.tk-5000 {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.amount :hover {
+    color: coral;
+    border-color: red;
+}
