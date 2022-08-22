@@ -43,7 +43,7 @@ body {
 
 .amount {
     display: flex;
-    margin-left: 600px;
+    margin-left: 650px;
 }
 
 .tk-100 {
@@ -82,4 +82,48 @@ body {
 .amount :hover {
     color: coral;
     border-color: red;
+}
+
+form {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.donate-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+    background: orange;
+    margin-left: 900px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+.donate-plan {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.food {
+    text-align: center;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.shelter {
+
+    text-align: center;
+    box-shadow: 10px 5px 5px gray;
+
+}
+
+.education {
+    text-align: center;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.plan {
+    display: flex;
+    margin: 50px;
+    padding: 50px;
 }
