@@ -1,3 +1,37 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.banner {
+    background-image: url(/images/donation13.jpg);
+
+
+    width: 105%;
+    height: 400px;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.banner-text {
+    padding-top: 20px;
+}
+
+.banner-text01 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.banner-text02 {
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.banner-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+    background: orange;
+    margin-left: 45%;
+}
