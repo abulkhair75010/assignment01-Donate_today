@@ -4,8 +4,6 @@ body {
 
 .banner {
     background-image: url(/images/donation13.jpg);
-
-
     width: 105%;
     height: 400px;
     margin-top: -20px;
@@ -36,6 +34,10 @@ body {
     margin-left: 45%;
 }
 
+.banner-btn:hover {
+    cursor: pointer;
+}
+
 .donate-today {
     text-align: center;
     margin-top: 5%;
@@ -51,6 +53,7 @@ body {
     width: 80px;
     height: 80px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .tk-200 {
@@ -58,6 +61,7 @@ body {
     width: 80px;
     height: 80px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .tk-500 {
@@ -65,24 +69,30 @@ body {
     width: 80px;
     height: 80px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .tk-1000 {
     width: 80px;
     height: 80px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .tk-5000 {
     width: 80px;
     height: 80px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .amount :hover {
     color: coral;
     border-color: red;
+    cursor: pointer;
 }
+
+
 
 form {
     margin-top: 25px;
@@ -94,10 +104,24 @@ form {
     height: 40px;
     border-radius: 5%;
     background: orange;
-    margin-left: 900px;
+    margin-left: 950px;
     margin-top: 20px;
     position: absolute;
 
+
+}
+
+.depend {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.depend-text {
+    width: 100%;
+}
+
+.depend-img {
+    margin: auto;
 }
 
 .donate-plan {
@@ -110,14 +134,31 @@ form {
     height: 350px;
     text-align: center;
     box-shadow: 5px 5px 5px gray;
+    margin: 15px;
 
+}
+
+.food:hover {
+    color: blueviolet;
+    border-width: 5px;
+    border-color: red;
+    transition: 10ms;
+    cursor: pointer;
 }
 
 .shelter {
     width: 1000px;
     height: 350px;
     text-align: center;
+    margin: 15px;
     box-shadow: 5px 5px 5px gray;
+}
+
+.shelter:hover {
+    color: blueviolet;
+    border-color: red;
+    transition: 10ms;
+    cursor: pointer;
 
 }
 
@@ -125,7 +166,17 @@ form {
     width: 1000px;
     height: 350px;
     text-align: center;
+    margin: 15px;
     box-shadow: 5px 5px 5px gray;
+
+}
+
+
+.education:hover {
+    color: blueviolet;
+    border-color: red;
+    transition: 10ms;
+    cursor: pointer;
 
 }
 
@@ -133,4 +184,70 @@ form {
     display: flex;
     margin: 50px;
     padding: 50px;
+}
+
+.depend {
+    width: 100%;
+    display: flex;
+}
+
+.depend-text {
+    margin: 50px;
+}
+
+.depend-btn {
+    margin-left: 50px;
+    color: black;
+    border-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+    background-color: orange;
+}
+
+.subscription {
+    margin-top: 10%;
+}
+
+.sub01 {
+    text-align: center;
+}
+
+.sub02 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    margin-left: 870px;
+}
+
+.input-sub {
+    background-color: rgb(236, 175, 175);
+    color: black;
+}
+
+.input-sub:hover {
+    color: black;
+    border-color: red;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+.footer-txt1 {
+    color: red;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-txt2 {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
